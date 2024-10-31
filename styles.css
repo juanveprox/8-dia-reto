@@ -1,0 +1,85 @@
+*{
+    font-family: "Noto Sans", sans-serif;
+    box-sizing: content-box;
+}
+
+body{
+    display: flex;
+    background-color: #5C96C1;
+}
+
+main{
+    margin: 3rem auto;
+}
+
+h1{
+    text-align: center;
+    color: #4E4F56;
+    font-size: 3.5rem;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+
+#input{
+    padding: .2rem;
+    width: 70%;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+#agregar{
+    padding: .2rem;
+    height: 2rem ;
+    width: 20%;
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-weight: 500;
+    border: 2px solid #2196F3;
+    cursor: pointer;
+    background-color: #2196F3;
+}
+
+#agregar:hover{
+    
+    color: #ffffffd0;
+    background-color:#2195f3a2;
+}
+
+#eliminar{
+    font-size: 1rem;
+    display: block;
+    margin: 1rem auto;
+    width: 30%;
+    background-color: #EA717B;
+    color: #FFFFFF;
+    border: none;
+    height: 2rem ;
+    cursor: pointer;
+}
+
+#eliminar:hover{    
+    background-color: #ce555f;
+}
+
+#lista{
+    margin-top: 3rem;
+    list-style: none;
+}
+
+#lista li {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+.EliminarTarea{
+    border: none;
+    margin-left: 1rem;
+
+    background-color: #ce555f;
+    color: #FFFFFF;
+    cursor: pointer;
+}
