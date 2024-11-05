@@ -1,6 +1,12 @@
 # 8-dia-reto
 Lista de tareas 
-
+Con guardado en el localStorage
+-----------------------------------------------------------------
+Funcionalidades:
+    *Agregar Tareas
+    *Eliminar Tareas
+    *Se guardan en el localStorage
+    *Eliminar todas las tareas
 
 
 
